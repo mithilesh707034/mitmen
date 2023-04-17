@@ -1,0 +1,117 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block title %}| home{% endblock %}
+{% block body %}
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'images/banner1.jpg' %}" width="100%" height="500px" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'images/image5.jpg' %}" width="100%" height="500px" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'images/image3.jpg' %}" width="100%" height="500px" alt="">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container-fluid">
+    <div class="row mt-2">
+        <div class="col-lg-4 col-md-6 col-12"style="border-right:1px solid gray;">
+            <h4 class="text-center"><i>Our Policies</i></h4>
+            <hr>
+            <p style="text-align:justify; font-style: italic;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, eligendi assumenda laudantium ipsa at mollitia incidunt accusamus dolorum modi. Vitae labore repellat eligendi accusamus! Natus aperiam aliquam voluptates adipisci, unde enim possimus ab ex numquam, repellendus vel iusto id. Deleniti suscipit fuga nisi reiciendis a repellendus quas laborum vel voluptatum quo, enim ut quibusdam dolore cumque, dignissimos cupiditate quasi distinctio alias maiores eum. Officia, natus laudantium accusamus harum sit corporis reiciendis ut doloribus dignissimos. Soluta provident quod aliquid! Explicabo ipsum iste maxime ratione. Similique cupiditate illum voluptate assumenda impedit quo dolore? Voluptas ad in voluptates numquam nobis soluta corrupti veniam! doloribus dignissimos. Soluta provident quod aliquid! Explicabo ipsum iste maxime ratione impedit </p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <img src="{%static 'images/image2.png'%}" alt="">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+            <h4 class="text-center"><i>Our Plane</i></h4>
+            <hr>
+            <table class="table table-bordered table-hover table-striped">
+                <tr>
+                    <td>Static Website</td>
+                    <td>&#8377;5,000/-</td>
+                </tr>
+                <tr>
+                    <td>Dynamic Website</td>
+                    <td>&#8377;10,000/-</td>
+                </tr>
+                <tr>
+                    <td>eCommerce Website</td>
+                    <td>&#8377;20,000/-</td>
+                </tr>
+                <tr>
+                    <td>Digital Marketing</td>
+                    <td>&#8377;5,999/-</td>
+                </tr>
+                <tr>
+                    <td>AI Chart Boat</td>
+                    <td>&#8377;25,000/-</td>
+                </tr>
+                <tr>
+                    <td>AI Caller</td>
+                    <td>&#8377;45,000/-</td>
+                </tr>
+                <tr>
+                    <td>AI Recomandation System</td>
+                    <td>&#8377;55,000/-</td>
+                </tr>
+                <tr>
+                    <td>AI Auto Correction System</td>
+                    <td>&#8377;55,000/-</td>
+                </tr>
+                <tr>
+                    <td>Website Hosting</td>
+                    <td>&#8377;4,999/-</td>
+                </tr>
+                    
+            </table>
+        </div>
+      
+        
+    </div>
+    <div class="row mx-1">
+        <h4 class="bg-primary text-center text-light p-1 mt-1">Our Patners</h4>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/banner1.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/image1.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/image3.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/image5.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        
+    </div>
+    <div class="row mt-2 mx-1">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/image6.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/image7.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/image8.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-1">
+            <img src="{% static 'images/image9.jpg' %}" width="100%"height="150px" alt="">
+        </div>
+        
+    </div>
+</div>
+{% endblock %}
